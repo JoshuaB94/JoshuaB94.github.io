@@ -1,0 +1,50 @@
+/*---Hero Section---*/
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+/*Section Background*/
+.main-hero-section {
+    background-color: #2D3142;
+    color: white;
+}
+
+/*Hero CTA Buttons*/
+.main-cta {
+    background-color: #EF8354;
+    border: 0px;
+    border-radius: 2px;
+}
+.main-cta:hover {
+    background-color: #4F5D75;
+}
+
+.secondary-cta {
+    background-color: none;
+    border: 0px;
+    color: white;
+    text-decoration: underline;
+}
+.secondary-cta:hover {
+    background-color: rgba(0,0,0,0);
+    color: #EF8354;
+}
+
+.section-heading {
+    margin-bottom: 3%;
+}
+.project-heading {
+    text-align: right;
+    text-transform: uppercase;
+    color: rgba(45, 49, 66, 0.214);
+}
+/*---Media Query---*/
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+    font-size: 3.5rem;
+}
+}
