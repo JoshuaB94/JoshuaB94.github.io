@@ -43,7 +43,9 @@
     text-transform: uppercase;
     color: rgba(45, 49, 66, 0.214);
 }
-/*Masonry Project Gallery*/
+.project-image {
+    width: 100%;
+}
 
 
 /*---Media Query---*/
