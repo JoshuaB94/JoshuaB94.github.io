@@ -51,3 +51,20 @@
     background-color: #fafafa;
     padding-bottom: 1rem;
 }
+
+/*---About Section---*/
+.about-heading {
+    text-align: left;
+    text-transform: uppercase;
+    color: #4B5E77;
+}
+.career-position-text {
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF7C47;
+}
+.about-photo {
+    width: 500px;
+    border-radius: 10px;
+}
