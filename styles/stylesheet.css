@@ -1,12 +1,4 @@
 /*---Hero Section---*/
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-
 /*Section Background*/
 .main-hero-section {
     background-color: #2D3142;
@@ -36,7 +28,7 @@
 
 /*---Project Section---*/
 .section-heading {
-    margin-bottom: 3%;
+    margin-right: 1%;
 }
 .project-heading {
     text-align: right;
@@ -44,14 +36,18 @@
     color: rgba(45, 49, 66, 0.214);
 }
 .project-image {
-    width: 100%;
-    margin-bottom: 5%;
+    width: 25rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
 }
-
-
-/*---Media Query---*/
-@media (min-width: 768px) {
-.bd-placeholder-img-lg {
-    font-size: 3.5rem;
+.project-row--flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    padding: 1rem;
 }
+.project-section {
+    background-color: #fafafa;
+    padding-bottom: 1rem;
 }
