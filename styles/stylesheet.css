@@ -25,10 +25,13 @@
     background-color: rgba(0,0,0,0);
     color: #EF8354;
 }
+.lead {
+    margin-bottom: 6%;
+}
 
 /*---Project Section---*/
 .section-heading {
-    margin-right: 1%;
+    margin-right: -2%;
 }
 .project-heading {
     text-align: right;
